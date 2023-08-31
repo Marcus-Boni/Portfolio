@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="A portfolio (personal website) is an online platform that presents and highlights an individual's work, skills, projects, and experiences in an organized and visually appealing manner."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com&display=swap" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com&display=swap"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script
+      crossorigin="anonymous"
+      src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"
+      defer
+    ></script>
+    <script src="assets/js/typeit.js" defer></script>
+    <title>Portfólio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="container">
+          <h1 class="header__title">Marcus Evandro</h1>
+          <nav class="header__menu">
+            <ul class="header__menu--list">
+              <li><a href="#banner" title="Casa">Casa</a></li>
+              <li><a href="#about" title="Sobre">Sobre</a></li>
+              <li>
+                <a href="#tecnologies" title="Tecnologias">Tecnologias</a>
+              </li>
+              <li>
+                <a href="#curiosities" title="Curiosidades">Curiosidades</a>
+              </li>
+              <li>
+                <a href="#projects" title="Projetos">Projetos</a>
+              </li>
+              <li>
+                <a href="#contact" title="Contato">Contato</a>
+              </li>
+            </ul>
+            <ul class="header__menu--logos">
+              <li>
+                <a
+                  href="https://github.com/Marcus-Boni"
+                  title="Github"
+                  target="_blank"
+                  ><i class="bx bxl-github"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://drive.google.com/file/d/1eWVUzBMjz-0DTKHs6bIzbSh4rEzspO45/view?usp=drive_link"
+                  title="Currículo"
+                  target="_blank"
+                  ><i class="bx bxs-receipt"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/marcus-boni-729a52243/"
+                  title="Linkedin"
+                  target="_blank"
+                  ><i class="bx bxl-linkedin-square"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/marcusegboni/"
+                  title="Instagram"
+                  target="_blank"
+                  ><i class="bx bxl-instagram-alt"></i
+                ></a>
+              </li>
+            </ul>
+          </nav>
+          <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu__bar">
+            <ul class="menu__bar--list">
+              <li><a href="#banner" title="Casa">Casa</a></li>
+              <li><a href="#about" title="Sobre">Sobre</a></li>
+              <li>
+                <a href="#tecnologies" title="Tecnologias">Tecnologias</a>
+              </li>
+              <li>
+                <a href="#curiosities" title="Curiosidades">Curiosidades</a>
+              </li>
+              <li>
+                <a href="#projects" title="Projetos">Projetos</a>
+              </li>
+              <li>
+                <a href="#contact" title="Contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="banner section" id="banner">
+      <div class="container">
+        <div class="banner__text">
+          <span class="banner__text--welcome animate"
+            >Bem vindo ao meu Portfolio</span
+          >
+          <h2 class="banner__text--title animate" id="banner__title">
+            Olá, eu sou Marcus
+          </h2>
+          <p class="banner__text--about animate">
+            Olá a todos! Meu nome é Marcus Evandro e estou muito empolgado em
+            compartilhar com vocês minha jornada na carreira de Engenharia de
+            Software.
+          </p>
+        </div>
+        <div class="banner__image">
+          <img
+            src="assets/images/me.webp"
+            alt="Banner"
+            title="me"
+            class="animate"
+          />
+        </div>
+        <a
+          href="#about"
+          class="goto-next animate__animated animate__pulse animate__fast"
+          title="Next"
+        >
+          <i class="bx bx-chevron-down" id="#about"></i>
+        </a>
+      </div>
+    </section>
+    <section class="about section" id="about">
+      <div class="content">
+        <span class="image-fit"></span>
+        <div class="container">
+          <div class="about__row">
+            <div class="about__row--col1">
+              <h2 class="about__text--title animate">Sobre mim</h2>
+              <p class="about__text--description animate">
+                Aqui contarei um pouco da minha vida, como cheguei até aqui e o
+                que almejo conquistar.
+              </p>
+            </div>
+            <div class="about__row--col2">
+              <p class="about__text--description animate">
+                Eu me chamo Marcus, tenho 18 anos, sou estudante de Engenharia
+                de Software. Além disso, sou um desenvolvedor Front-End
+                apaixonado por criar experiências de usuário incríveis e
+                construir soluções inovadoras. Com minha paixão pela tecnologia
+                e minha habilidade para transformar ideias em realidade, tenho
+                uma vasta experiência em desenvolvimento web.
+              </p>
+            </div>
+            <div class="about__row--col3">
+              <p class="about__text--description animate">
+                Sou prático em criar interfaces de usuário interativas e
+                responsivas, e gosto de trabalhar em equipe para entregar
+                projetos de alta qualidade. Atualmente, estou procurando uma
+                posição onde possa usar minhas habilidades para criar soluções
+                incríveis e contribuir para o sucesso da empresa.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="#tecnologies"
+        class="goto-next animate__animated animate__pulse animate__fast"
+        title="Next"
+      >
+        <i class="bx bx-chevron-down" id="#tecnologies"></i>
+      </a>
+    </section>
+    <section class="tecnologies section" id="tecnologies">
+      <div class="content">
+        <div class="container">
+          <div class="tecnologies__row">
+            <div class="tecnologies__row--col1 row">
+              <h2 class="tecnologies__row--title row--title animate">
+                Tecnologias pilares
+              </h2>
+              <p class="tecnologies__row--description animate">
+                Tenho buscado aprimorar minhas habilidades técnicas, explorando
+                diferentes linguagens de programação, frameworks e tecnologias.
+              </p>
+              <p class="animate">
+                Aqui estão algumas das tecnologias que tenho trabalhado
+                recentemente:
+              </p>
+            </div>
+            <div class="tecnologies__row--col2">
+              <ul>
+                <li class="animate">
+                  <div class="tecnologies__box">
+                    <i class="bx bxl-html5"></i>
+                    <h3 class="tecnologies__title">HTML5</h3>
+                  </div>
+                </li>
+                <li class="animate">
+                  <div class="tecnologies__box">
+                    <i class="bx bxl-css3"></i>
+                    <h3 class="tecnologies__title">CSS3</h3>
+                  </div>
+                </li>
+                <li class="animate">
+                  <div class="tecnologies__box">
+                    <i class="bx bxl-javascript"></i>
+                    <h3 class="tecnologies__title">JavaScript</h3>
+                  </div>
+                </li>
+                <li class="animate">
+                  <div class="tecnologies__box">
+                    <i class="bx bxl-bootstrap"></i>
+                    <h3 class="tecnologies__title">Bootstrap</h3>
+                  </div>
+                </li>
+                <li class="animate">
+                  <div class="tecnologies__box">
+                    <i class="bx bxl-sass"></i>
+                    <h3 class="tecnologies__title">Sass</h3>
+                  </div>
+                </li>
+                <li class="animate">
+                  <div class="tecnologies__box">
+                    <i class="bx bxl-git"></i>
+                    <h3 class="tecnologies__title">Git</h3>
+                  </div>
+                </li>
+                <li class="animate">
+                  <div class="tecnologies__box">
+                    <i class="bx bxl-typescript"></i>
+                    <h3 class="tecnologies__title">TypeScript</h3>
+                  </div>
+                </li>
+                <li class="animate">
+                  <div class="tecnologies__box">
+                    <i class="bx bxl-react"></i>
+                    <h3 class="tecnologies__title">ReactJs</h3>
+                  </div>
+                </li>
+                <li class="animate">
+                  <div class="tecnologies__box">
+                    <i class="bx bxl-nodejs"></i>
+                    <h3 class="tecnologies__title">NodeJs</h3>
+                  </div>
+                </li>
+                <li class="animate">
+                  <div class="tecnologies__box">
+                    <i class="bx bxl-tailwind-css"></i>
+                    <h3 class="tecnologies__title">TailwindCss</h3>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="#curiosities"
+        class="goto-next animate__animated animate__pulse animate__fast"
+        title="Next"
+      >
+        <i class="bx bx-chevron-down" id="#curiosities"></i>
+      </a>
+    </section>
+    <section class="curiosities section" id="curiosities">
+      <div class="content">
+        <div class="container">
+          <div class="curiosities__row--col1 row">
+            <h2 class="curiosities__row--title row--title animate">
+              Curiosidades e fatos sobre mim
+            </h2>
+            <div class="container__gallery">
+              <div class="gallery__wrapper">
+                <div class="gallery">
+                  <ul class="item current-item">
+                    <li class="curiosities__list--text animate">
+                      <strong>Determinação</strong> é uma qualidade que me
+                      define. Desde o início do curso de Engenharia de Software,
+                      estabeleci metas claras e tenho trabalhado incansavelmente
+                      para alcançá-las;
+                    </li>
+                    <li class="curiosities__list--text animate">
+                      O <strong>foco</strong> é outro aspecto essencial na minha
+                      jornada como estudante de Engenharia de Software.
+                      Concentrar-me em meus estudos, projetos e objetivos é uma
+                      prioridade para mim;
+                    </li>
+                    <li class="curiosities__list--text animate">
+                      Estou comprometido em continuar aprendendo, me adaptando e
+                      buscando a <strong>excelência</strong> nesta área em
+                      constante evolução;
+                    </li>
+                    <li class="curiosities__list--text animate">
+                      Além do meu curso de Engenharia de Software, também
+                      <strong
+                        >investi 2 anos no estudo da língua inglesa;</strong
+                      >
+                    </li>
+                  </ul>
+                  <ul class="another-curiosities1 item">
+                    <li class="curiosities__list--text animate">
+                      <strong>Nome:</strong> Marcus Evandro G. Boni
+                    </li>
+                    <li class="curiosities__list--text animate">
+                      <strong>Idade:</strong> 18 anos
+                    </li>
+                    <li class="curiosities__list--text animate">
+                      <strong>Idiomas:</strong> Português, Inglês
+                    </li>
+                    <li class="curiosities__list--text animate">
+                      <strong>Interesses:</strong> Tecnologia, Programação,
+                      Inglês, Games, Esportes, Viagens.
+                    </li>
+                    <li class="curiosities__list--text animate">
+                      <strong>Formação em andamento:</strong> Engenharia de
+                      Software - Instituto Infnet
+                    </li>
+                  </ul>
+                  <ul class="another-curiosities2 item">
+                    <li class="curiosities__list--text animate">
+                      Reconheço a importância do <strong>inglês</strong> como
+                      idioma universal da tecnologia e como uma habilidade
+                      essencial para a comunicação global;
+                    </li>
+                    <li class="curiosities__list--text animate">
+                      Ao manter o foco, sou capaz de acompanhar as tendências do
+                      setor e estar preparado para os desafios futuros que a
+                      tecnologia apresenta;
+                    </li>
+                    <li class="curiosities__list--text animate">
+                      Enfrentei desafios com
+                      <strong>resiliência e perseverança</strong>, sempre
+                      buscando soluções e aprendendo com as dificuldades;
+                    </li>
+                    <li class="curiosities__list--text animate">
+                      <strong>
+                        Muito obrigado pela atenção! Estou aberto a perguntas e
+                        pronto para compartilhar mais sobre minha jornada no
+                        desenvolvimento de software.
+                      </strong>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="curiosities__wrapper">
+              <span class="control control__active" data-number="0"></span>
+              <span class="control" data-number="1"></span>
+              <span class="control" data-number="2"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        href="#projects"
+        class="goto-next animate__animated animate__pulse animate__fast"
+        title="Next"
+      >
+        <i class="bx bx-chevron-down" id="#projects"></i>
+      </a>
+    </section>
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="projects__title">
+          <h2 class="projects__title--text animate">Projetos</h2>
+          <p class="animate">
+            Aqui estão alguns dos meus projetos desenvolvidos.
+          </p>
+        </div>
+        <div class="projects__box">
+          <div class="projects__box--row">
+            <div class="first__project box">
+              <div class="project__img">
+                <img
+                  src="assets/images/Project__pizza.webp"
+                  alt="Pizza project"
+                  title="Pizza project"
+                />
+              </div>
+              <h3 class="animate">Página Pizzaria</h3>
+              <a
+                href="https://github.com/Marcus-Boni/Projeto-Compra-de-pizzas-2.0"
+                class="btn"
+                target="_blank"
+              >
+                <span class="animate"> Acessar </span>
+              </a>
+            </div>
+            <div class="second__project box">
+              <div class="project__img">
+                <img
+                  src="assets/images/Project__starbucks.webp"
+                  alt="Starbucks project"
+                  title="Starbucks project"
+                />
+              </div>
+              <h3 class="animate">Página Starbucks</h3>
+              <a
+                href="https://github.com/Marcus-Boni/Projeto-Starbucks"
+                class="btn"
+                target="_blank"
+              >
+                <span class="animate"> Acessar </span>
+              </a>
+            </div>
+            <div class="third__project box">
+              <div class="project__img">
+                <img
+                  src="assets/images/Project__medicenter.webp"
+                  alt="Medicenter project"
+                  title="Medicenter project"
+                />
+              </div>
+              <h3>Página Medicenter</h3>
+              <a
+                href="https://github.com/Marcus-Boni/Projeto-Medicenter"
+                class="btn"
+                target="_blank"
+              >
+                <span class="animate"> Acessar </span>
+              </a>
+            </div>
+            <div class="fourth__project box">
+              <div class="project__img">
+                <img
+                  src="assets/images/Project__todolist.webp"
+                  alt="Todolist project"
+                  title="Todolist project"
+                />
+              </div>
+              <h3>Lista de Tarefas</h3>
+              <a
+                href="https://github.com/Marcus-Boni/JavaScript-SeriesOfExercises"
+                class="btn"
+                target="_blank"
+              >
+                <span class="animate"> Acessar </span>
+              </a>
+            </div>
+            <div class="fifth__project box">
+              <div class="project__img">
+                <img
+                  src="assets/images/Project__memorygame.webp"
+                  alt="Memory game project"
+                  title="Memory game project"
+                />
+              </div>
+              <h3>Jogo da Memória</h3>
+              <a
+                href="https://github.com/Marcus-Boni/JavaScript-SeriesOfExercises"
+                class="btn"
+                target="_blank"
+              >
+                <span class="animate"> Acessar </span>
+              </a>
+            </div>
+            <div class="sixth__project box">
+              <div class="project__img">
+                <img
+                  src="assets/images/Project__pixelart.webp"
+                  alt="Pixel art project"
+                  title="Pixel art project"
+                />
+              </div>
+              <h3>Jogo Pixel Art</h3>
+              <a
+                href="https://github.com/Marcus-Boni/JavaScript-SeriesOfExercises"
+                class="btn"
+                target="_blank"
+              >
+                <span class="animate"> Acessar </span>
+              </a>
+            </div>
+          </div>
+          <footer class="projects__footer">
+            <a
+              href="https://github.com/Marcus-Boni"
+              class="btn"
+              target="_blank"
+              title="Ver mais"
+            >
+              Ver mais
+            </a>
+          </footer>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="contact__content">
+          <h2>Entre em contato comigo</h2>
+          <p>
+            Atualmente estou buscando oportunidades para crescer
+            profissionalmente e contribuir para o avanço da tecnologia.
+          </p>
+          <input
+            type="email"
+            name="email"
+            placeholder="Seu Endereço de Email"
+          />
+          <a href="mailto:mgalvaoboni@gmail.com" class="btn" title="Get Started"
+            >Vamos lá</a
+          >
+          <ul class="contact__content--logos">
+            <li>
+              <a
+                href="https://github.com/Marcus-Boni"
+                title="Github"
+                target="_blank"
+                ><i class="bx bxl-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://drive.google.com/file/d/1eWVUzBMjz-0DTKHs6bIzbSh4rEzspO45/view?usp=drive_link"
+                title="Currículo"
+                target="_blank"
+                ><i class="bx bxs-receipt"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/marcus-boni-729a52243/"
+                title="Linkedin"
+                target="_blank"
+                ><i class="bx bxl-linkedin-square"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://www.instagram.com/marcusegboni/"
+                title="Instagram"
+                target="_blank"
+                ><i class="bx bxl-instagram-alt"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <ul class="footer__content">
+        <li>© All rights reserved</li>
+        <li>|</li>
+        <li>
+          <a
+            href="https://github.com/Marcus-Boni"
+            title="Marcus Evandro"
+            target="_blank"
+            >Developed by Marcus Evandro G. Boni, 2023</a
+          >
+        </li>
+      </ul>
+    </footer>
+
+    <noscript>You need Enable JavaScript</noscript>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
