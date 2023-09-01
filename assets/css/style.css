@@ -605,6 +605,14 @@ h2 {
     align-items: center;
 }
 
+.tecnologies__box img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    margin-right: 0.25rem;
+    transition: .4s ease-in-out all;
+}
+
 .tecnologies__title {
     font-size: 1.25rem;
     color: var(--white);
@@ -799,6 +807,7 @@ h2 {
     line-height: 5.65rem;
     margin: 0 0 2rem 0;
     text-align: center;
+    overflow: hidden;
 }
 
 .project__img::before {
@@ -1256,7 +1265,7 @@ screen and (max-width:27em) {
 
     .header__title {
         margin-right: 5rem;
-        white-space: pre;
+        white-space: wrap;
     }
 
     .menu {
@@ -1264,7 +1273,7 @@ screen and (max-width:27em) {
     }
 
     .banner__text--welcome {
-        font-size: 0.75rem;
+        font-size: 0.7rem;
     }
 
     .banner__text--title {
@@ -1276,19 +1285,52 @@ screen and (max-width:27em) {
     }
 
     .container h2:not(.banner .container h2) {
-        font-size: 2rem;
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
     }
 
     .container p:not(.banner .container p) {
         font-size: 0.875rem;
     }
 
-    .row {
-        margin-bottom: 1.6rem;
+    .tecnologies__row--col1.row {
+        margin-bottom: 0.6rem;
+    }
+
+    .curiosities__row--col1.row {
+        margin-bottom: 0;
+    }
+
+    .about .content,
+    .tecnologies .content,
+    .curiosities .content {
+        padding: 1.25rem 0 0.25rem;
     }
 
     .tecnologies__row--col2 ul li {
-        margin: 0.5rem;
+        margin: 0.4rem;
+        padding: 0.3rem 1rem;
+    }
+
+    .tecnologies__row--description {
+        margin-bottom: 1rem;
+    }
+
+    .curiosities__row--title {
+        margin-top: 0;
+    }
+
+    .container__gallery {
+        margin-bottom: 1rem;
+    }
+
+    .contact__content--logos .bx {
+        font-size: 1.6rem;
+    }
+
+    .footer__content li,
+    .footer__content li a {
+        font-size: 0.875rem;
     }
 
 }
